@@ -1,0 +1,176 @@
+{
+  "kind": "comparison-preset",
+  "completeness": "settings-from-screenshots",
+  "title": "Comparação de Cenários CAPLA - PEC 6X1",
+  "subtitle": "Cenário A: CAPLA 2028 BR - 40h - PEC 6X1 × Cenário B: CAPLA 2027 BR - 42h - PEC 6X1 × Cenário C: CAPLA 2027 BR - 44h - Sem PEC",
+  "scenarios": [
+    "CAPLA 2028 BR - 40h - PEC 6X1",
+    "CAPLA 2027 BR - 42h - PEC 6X1",
+    "CAPLA 2027 BR - 44h - Sem PEC"
+  ],
+  "sourceAnalyses": [
+    "CAPLA 2028 BR - 27/10/2026 - PEC 6X1",
+    "CAPLA 2027 BR - 16/10/2026 - PEC 6X1",
+    "CAPLA 2027 BR - 29/07/2026 - PCLDI"
+  ],
+  "preview": {
+    "direction": "AC",
+    "level": "site",
+    "sections": {
+      "general": true,
+      "special": true,
+      "results": true
+    },
+    "includeSpecial": true,
+    "totals": true,
+    "differences": false,
+    "columns": [
+      "aV",
+      "aS",
+      "bV",
+      "bS",
+      "cV",
+      "cS",
+      "dV"
+    ],
+    "filters": {
+      "states": {
+        "included": 8,
+        "total": 8
+      },
+      "clusters": {
+        "included": 5,
+        "total": 5
+      },
+      "sites": {
+        "included": 54,
+        "total": 54
+      }
+    }
+  },
+  "parameters": {
+    "general": [
+      {
+        "name": "Absence Total: Sickness + Others",
+        "values": ["2,6%", "2,6%", "2,6%"],
+        "included": false
+      },
+      {
+        "name": "Overtime Vestas",
+        "values": ["15%", "15%", "15%"],
+        "included": false
+      },
+      {
+        "name": "Overtime Subcontractor",
+        "values": ["11%", "11%", "11%"],
+        "included": false
+      },
+      {
+        "name": "DTR Windfarm",
+        "values": ["80%", "80%", "80%"],
+        "included": false
+      },
+      {
+        "name": "Turbine time ratio 2130",
+        "values": ["67,03%", "67,03%", "67,03%"],
+        "included": false
+      },
+      {
+        "name": "Mob/Demob",
+        "values": ["20,38%", "20,38%", "20,38%"],
+        "included": false
+      },
+      {
+        "name": "Travel",
+        "values": ["14,27%", "14,27%", "14,27%"],
+        "included": false
+      },
+      {
+        "name": "Lunch",
+        "values": ["14,54%", "14,54%", "14,54%"],
+        "included": false
+      },
+      {
+        "name": "Lunch time per working days",
+        "values": ["1H", "1H", "1H"],
+        "included": true
+      },
+      {
+        "name": "Demand Ratio",
+        "values": ["53,62%", "53,62%", "53,62%"],
+        "included": false
+      },
+      {
+        "name": "Weekly working hours",
+        "values": ["40 H", "42 H", "44 H"],
+        "included": true
+      },
+      {
+        "name": "Yearly Bank Holiday",
+        "values": ["11 d", "11 d", "11 d"],
+        "included": true
+      },
+      {
+        "name": "Vacation days per year",
+        "values": ["22 d", "22 d", "22 d"],
+        "included": false
+      },
+      {
+        "name": "%YM01 to be executed",
+        "values": ["100%", "100%", "100%"],
+        "included": false
+      },
+      {
+        "name": "%YM02 to be executed",
+        "values": ["100%", "100%", "100%"],
+        "included": false
+      },
+      {
+        "name": "%YM05 to be executed",
+        "values": ["100%", "100%", "100%"],
+        "included": false
+      },
+      {
+        "name": "%YMOX (others) to be executed",
+        "values": ["100%", "100%", "100%"],
+        "included": false
+      },
+      {
+        "name": "Estimated % Subcontractors - Site",
+        "values": ["30%", "30%", "30%"],
+        "included": false
+      }
+    ],
+    "special": [
+      {
+        "name": "DTR Special Task",
+        "values": ["75%", "75%", "75%"],
+        "included": true
+      },
+      {
+        "name": "YM02 Special Task",
+        "values": ["9,64%", "9,64%", "9,64%"],
+        "included": false
+      },
+      {
+        "name": "YM05 Special Task",
+        "values": ["34,10%", "34,10%", "34,10%"],
+        "included": false
+      },
+      {
+        "name": "YM07 Special Task",
+        "values": ["32,24%", "32,24%", "32,24%"],
+        "included": false
+      },
+      {
+        "name": "Estimated % Subcontractors - Special Task",
+        "values": ["8%", "4%", "0%"],
+        "included": true
+      }
+    ]
+  },
+  "results": {
+    "includedRows": true,
+    "note": "The screenshots do not provide the complete underlying scenario records; the 54-site result data are not embedded in this preset."
+  }
+}
