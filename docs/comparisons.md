@@ -3,6 +3,14 @@
 Na calculadora CAPLA ou no Tracking, abra **Compare**, selecione dois ou três
 cenários e clique em **Open comparison**.
 
+## Preset das imagens
+
+`docs/comparacao-capla-pec-6x1.json` registra os nomes das três análises
+originais, além dos cenários de exibição, parâmetros, filtros e opções visíveis
+nas imagens. É uma referência de configuração; os registros e resultados
+completos permanecem salvos no app. Selecione essas três análises em **Compare**
+para gerar a comparação com os dados completos.
+
 ## Salvar e reabrir
 
 - Informe um nome e clique em **Save comparison**, na comparação ou na prévia
